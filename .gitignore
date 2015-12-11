@@ -137,3 +137,4 @@ tramp
 
 # cask packages
 .cask/
+/nbproject/private/
