@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>维修申报</title>
+    <link rel="stylesheet" href="assets/dist/bootstrap-3/css/bootstrap.css" media="screen">
+    <link href="assets/myxg/style.css" rel="stylesheet" media="screen">
+    <link href="assets/myxg/zlwx-app.css" rel="stylesheet" media="screen">
+    <link href="assets/myxg/maintainApply.css" rel="stylesheet" media="screen">
+</head>
+<body>
+
+<div class="warp">
+
+    <header class="titleWarp">维修申报
+        <a href="#" class="comeBack"></a>
+        <a href="#" class="yue btn" style="background-color: #0099ff">我的申报</a>
+    </header>
+
+    <div class="container-fluid">
+        <form class="form-horizontal">
+            <div class="row" style="margin-top: 16px; margin-bottom: 16px">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><button class="btn btn-default btn-block">绿化环境</button></div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><button class="btn btn-default active btn-block">电梯故障</button></div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><button class="btn btn-default btn-block">设备故障</button></div>
+            </div>
+            <div class="row" style="margin-top: 16px; margin-bottom: 16px">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><button class="btn btn-default btn-block">漏水</button></div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><button class="btn btn-default btn-block">电路故障</button></div>
+                <!--<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>-->
+            </div>
+
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-4 col-xs-4 control-label">备注说明:</label>
+                <div class="col-sm-8 col-xs-8" style="margin-left: -35px;">
+                    <textarea class="form-control" id="inputEmail3"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="inputEmail4" class="col-sm-4 col-xs-4 control-label">报修地点:</label>
+                <div class="col-sm-8 col-xs-8" style="margin-left: -35px;">
+                    <input class="form-control" id="inputEmail4">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-12 col-xs-12">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" style="background-color: #0f8eff">提交</button>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+
+    <div class="footer">
+        <div style="float:left;width:100%;">
+            <div style="width:50%;float:left;text-align: center;background-color: #0f8eff;height: 3.2rem">
+                <span style="color: white;line-height: 3.2rem">公共维修</span>
+            </div>
+            <div  style="width:50%;float:left;text-align: center;height: 3.2rem">
+                <span style="line-height: 3.2rem">个人保修</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="assets/dist/jquery/jquery-1.11.3.js"></script>
+<script src="assets/dist/bootstrap-3/js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/*网站基本定义*/
+html{}
+div,form,img,ul,ol,li,dl,dt,dd,p,tr,td,input,body,strong,span,pre{margin:0; padding:0; border:0; background-repeat:no-repeat;}
+h1,h2,h3,h4,h5,h6,p{ margin:0; padding:0; font-weight:normal;}
+body{/* font-family:Arial, Helvetica, sans-serif; */ font-family:"微软雅黑";font-size:14px;margin:0px;padding:0px;height:auto;clear:both;color:#434242;}
+img{border:0px;}
+ul,li{ list-style:none;}
+em, i{ font-style:normal;}
+a{ text-decoration:none; color:#666; }
+.del_float{ clear:both; line-height:0; height:0; font-size:0;}
+a,area{blr:expression(this.onFocus=this.blur());}
+
+.web{margin:0px auto;padding:0px;width:1000px; }
+.fleft{float:left;}
+.fright{float:right;}
+input,button,select,textarea{outline:none; border:none;}
+
+.clearfix:after{visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.clearfix{*zoom:1;}
+.clear{clear: both;}
+
+input[type=radio]{-webkit-appearance:none; appearance: none;width: 13px;height: 13px;margin: 0;cursor: pointer; vertical-align: bottom;background: #fff;border: 1px solid #dcdcdc;-webkit-border-radius: 1px;-moz-border-radius: 1px;border-radius: 1px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;position: relative;}
+input[type=radio] {-webkit-border-radius: 1em;-moz-border-radius: 1em;border-radius: 1em;width: 15px;height: 15px;}
+input[type=radio]:checked:after {content: '';display: block;position: relative;top: 3px;left: 3px;width: 7px;height: 7px;background: #666;-webkit-border-radius: 1em;-moz-border-radius: 1em;border-radius: 1em;background: #36619d;}
+
+/*头部代码*/
+.warp{margin: 0 auto;}
+.titleWarp{ text-align: center; position: relative; z-index: 1; background: #0f8eff; padding:15px 0px; color: #fff; font-size:22px;}
+.titleWarp a.comeBack{ position: absolute; left:10px; top:20px; width:15px; height:15px;border-left: 2px solid #fff;border-top: 2px solid #fff;-webkit-transform:rotate(-45deg)}
+.titleWarp a.yue{ position: absolute; right: 10px;top:15px; color: #fff; font-size: 16px;}
+.detailWarp{ background: #f5f5f5;}
